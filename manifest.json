@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "يقين | تحقق من النصوص الإسلامية",
+  "version": "1.0.0",
+  "description": "تحقق بسرعة من نص آية أو حديث، أو اقرأ النص من صورة.",
+  "action": { "default_title": "افتح يقين", "default_popup": "popup.html" },
+  "permissions": [],
+  "host_permissions": ["http://localhost:3000/*", "https://tessdata.projectnaptha.com/*"],
+  "content_security_policy": { "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'" }
+}
+

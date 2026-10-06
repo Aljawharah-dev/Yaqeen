@@ -1,0 +1,10 @@
+{
+  "name": "yaqeen-verify",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Arabic Quran and hadith text checker with image OCR and Chrome extension",
+  "type": "module",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
